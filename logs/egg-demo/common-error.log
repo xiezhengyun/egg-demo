@@ -51,3 +51,33 @@ hostname: xiezhengyundeMacBook-Pro.local
 pid: 64871
 hostname: xiezhengyundeMacBook-Pro.local
 
+2022-03-25 18:00:48,203 ERROR 65129 [-/127.0.0.1/-/7ms GET /list] nodejs.ReferenceError: mysql is not defined
+    at DiaryService.list (/Users/xiezhengyun/Documents/work/my-project/egg-demo/app/service/diary.js:13:19)
+    at HomeController.list (/Users/xiezhengyun/Documents/work/my-project/egg-demo/app/controller/home.js:16:41)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:44:32)
+
+pid: 65129
+hostname: xiezhengyundeMacBook-Pro.local
+
+2022-03-25 18:00:51,573 ERROR 65129 [-/127.0.0.1/-/2ms GET /list] nodejs.ReferenceError: mysql is not defined
+    at DiaryService.list (/Users/xiezhengyun/Documents/work/my-project/egg-demo/app/service/diary.js:13:19)
+    at HomeController.list (/Users/xiezhengyun/Documents/work/my-project/egg-demo/app/controller/home.js:16:41)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/koa-compose/index.js:44:32)
+
+pid: 65129
+hostname: xiezhengyundeMacBook-Pro.local
+

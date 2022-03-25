@@ -109,3 +109,9 @@
 2022-03-25 17:53:03,572 INFO 64871 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2022-03-25 17:53:03,572 INFO 64871 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
 2022-03-25 17:53:03,572 INFO 64871 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-25 17:59:29,489 INFO 65122 [Timer] /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37830514ms at 2022-03-26 04:30:00.003
+2022-03-25 17:59:29,489 INFO 65122 [Timer] /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21630511ms at 2022-03-26 00:00:00.000
+2022-03-25 17:59:29,490 INFO 65122 [Timer] /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21631511ms at 2022-03-26 00:00:01.001
+2022-03-25 17:59:29,334 INFO 65129 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-25 17:59:29,334 INFO 65129 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-25 17:59:29,334 INFO 65129 [egg-schedule]: register schedule /Users/xiezhengyun/Documents/work/my-project/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

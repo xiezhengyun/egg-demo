@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+  "middleware": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+      "port": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+      "user": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+      "password": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+      "database": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js"
+    },
+    "app": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js",
+    "agent": "/Users/xiezhengyun/Documents/work/my-project/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-swagger-doc": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg/config/config.default.js"
+}

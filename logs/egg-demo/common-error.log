@@ -1,0 +1,53 @@
+2022-03-25 16:32:48,056 ERROR 62551 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/xiezhengyun/Documents/work/my-project/egg-example/app/contract'
+    at Object.readdirSync (node:fs:1392:3)
+    at contractLoader (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/lifecycle.js:256:13
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/xiezhengyun/Documents/work/my-project/egg-example/app/contract"
+name: "ENOENTError"
+pid: 62551
+hostname: xiezhengyundeMacBook-Pro.local
+
+2022-03-25 16:32:59,438 ERROR 62605 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/xiezhengyun/Documents/work/my-project/egg-example/app/contract'
+    at Object.readdirSync (node:fs:1392:3)
+    at contractLoader (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/lifecycle.js:256:13
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/xiezhengyun/Documents/work/my-project/egg-example/app/contract"
+name: "ENOENTError"
+pid: 62605
+hostname: xiezhengyundeMacBook-Pro.local
+
+2022-03-25 17:53:04,987 ERROR 64871 [-/127.0.0.1/-/8ms GET /list] nodejs.ReferenceError: mysql is not defined
+    at DiaryService.list (/Users/xiezhengyun/Documents/work/my-project/egg-example/app/service/diary.js:13:19)
+    at HomeController.list (/Users/xiezhengyun/Documents/work/my-project/egg-example/app/controller/home.js:16:41)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/xiezhengyun/Documents/work/my-project/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 64871
+hostname: xiezhengyundeMacBook-Pro.local
+

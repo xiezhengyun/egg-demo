@@ -10,4 +10,5 @@ module.exports = app => {
   router.get('/list', controller.home.list);
   router.post('/add', controller.home.add);
   router.get('/detail/:id', controller.home.detail);
+  router.post('/delete', controller.home.delete);
 };

@@ -18,19 +18,19 @@ module.exports = appInfo => {
   // // add your middleware config here
   // config.middleware = [];
 
-  // config.security = {
-  //   csrf: {
-  //     enable: false,
-  //     ignoreJSON: true,
-  //   },
-  //   domainWhiteList: [ '*' ], // 配置白名单
-  // };
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true,
+    },
+    domainWhiteList: [ '*' ], // 配置白名单
+  };
 
-  // config.cors = {
-  //   // origin: '*', //允许所有跨域访问，注释掉则允许上面 白名单 访问
-  //   credentials: true, // 允许 Cookie 跨域跨域
-  //   allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
-  // };
+  config.cors = {
+    // origin: '*', //允许所有跨域访问，注释掉则允许上面 白名单 访问
+    credentials: true, // 允许 Cookie 跨域跨域
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
+  };
 
 
   // config.view = {

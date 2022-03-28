@@ -11,4 +11,5 @@ module.exports = app => {
   router.post('/add', controller.home.add);
   router.get('/detail/:id', controller.home.detail);
   router.post('/delete', controller.home.delete);
+  router.post('/update', controller.home.update);
 };

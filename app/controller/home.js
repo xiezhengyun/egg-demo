@@ -76,6 +76,22 @@ class HomeController extends Controller {
       }
     }
   }
+  async update() {
+    const { ctx } = this
+    const params = ctx.request.body
+    const res = await ctx.service.diary.update(params)
+    if (res) {
+      ctx.body = {
+        status: 200,
+        data: res,
+      }
+    } else {
+      ctx.body = {
+        status: 500,
+        data: '修改失败',
+      }
+    }
+  }
 }
 
 module.exports = HomeController

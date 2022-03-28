@@ -51,6 +51,16 @@ class DiaryService extends Service {
       return null
     }
   }
+  async update(params) {
+    const { app } = this
+    try {
+      const res = await app.mysql.update('dairy', params)
+      return res
+    } catch (error) {
+      console.log(error)
+      return null
+    }
+  }
 }
 
 module.exports = DiaryService

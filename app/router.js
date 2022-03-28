@@ -9,4 +9,5 @@ module.exports = app => {
   router.get('/test', controller.home.test);
   router.get('/list', controller.home.list);
   router.post('/add', controller.home.add);
+  router.get('/detail/:id', controller.home.detail);
 };

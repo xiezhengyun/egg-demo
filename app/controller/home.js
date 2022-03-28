@@ -29,7 +29,7 @@ class HomeController extends Controller {
   async add() {
     const { ctx } = this
     const params = {
-      ...ctx.request.body
+      ...ctx.request.body,
     }
     const res = await ctx.service.diary.add(params)
     if (res) {
@@ -41,6 +41,22 @@ class HomeController extends Controller {
       ctx.body = {
         status: 500,
         data: '添加失败',
+      }
+    }
+  }
+  async detail() {
+    const { ctx } = this
+    const { id } = ctx.params
+    const res = await ctx.service.diary.detail(id)
+    if (res) {
+      ctx.body = {
+        status: 200,
+        data: res,
+      }
+    } else {
+      ctx.body = {
+        status: 500,
+        data: '获取失败',
       }
     }
   }

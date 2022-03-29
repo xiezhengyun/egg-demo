@@ -12,4 +12,7 @@ module.exports = app => {
   router.get('/detail/:id', controller.home.detail);
   router.post('/delete', controller.home.delete);
   router.post('/update', controller.home.update);
+
+  // user
+  router.post('/user/create', controller.user.create);
 };
